@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Th.End</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Pixelify+Sans:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    :root { color-scheme: dark; box-sizing: border-box; }
+    body { margin: 0; padding: 0; background: #07040a; }
+    img { max-width: 100%; }
+    [hidden]:not([hidden=until-found i]) { display: none !important; }
+  </style>
+</head>
+<body>
+  <canvas id="scene" aria-hidden="true"></canvas>
+
+  <section id="intro" aria-label="Th.End">
+    <div class="stage">
+      <canvas id="book" role="img" aria-label="O livro vermelho de Thucker se abre e se transforma na logo de Th.End"></canvas>
+      <p class="hint" aria-hidden="true">role para ler</p>
+    </div>
+  </section>
+
+  <main id="leitura">
+
+    <article class="sheet">
+      <div class="page">
+        <h2>O que restou</h2>
+        <p class="lead">Ghurd, o reino que diz que qualquer potencial é uma arma.</p>
+        <p>Em Th.End, você controla <strong>Thucker</strong>, um filho perdido do caos, que teve o azar de ser eficiente demais para ser reconhecido pela autocracia e ainda impotente demais para se rebelar.</p>
+        <p>Não o consideraram valioso o suficiente para o exército, assim como sua irmã. Mas viram potencial em suas habilidades para servir de controle contra a geração de monstros que surgia das masmorras.</p>
+        <ul class="tags">
+          <li>Roguelike</li><li>Card battle</li><li>Monster skill catcher</li><li>Bag builder</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="sheet">
+      <div class="page">
+        <h2>Cem andares</h2>
+        <ul class="stats">
+          <li><b>100</b> Andares</li>
+          <li><b>100</b> Criaturas</li>
+          <li><b>400</b> Habilidades</li>
+          <li><b>Diversos</b> Itens</li>
+        </ul>
+        <ol class="notes">
+          <li>A descida é linear: cem andares, cem criaturas.</li>
+          <li>As criaturas derrotadas derrubam habilidades. São 400 ao todo.</li>
+          <li>Há um limite de habilidades que Thucker pode usar, então escolher o que levar faz parte da descida.</li>
+          <li>Pela masmorra surgem itens. Organizados no inventário, eles potencializam habilidades ou concedem novas cartas.</li>
+        </ol>
+      </div>
+    </article>
+
+    <article class="sheet">
+      <div class="page">
+        <h2>O Diário do Thucker</h2>
+        <p>Aqui ele vai contar sempre um pouco como é sua vida no dia a dia da masmorra e catalogar cada evento enigmático que passou dentro dela...</p>
+        <ul class="diary-index" id="diario-indice" aria-label="Páginas do diário"></ul>
+      </div>
+    </article>
+
+    <article class="sheet">
+      <div class="page">
+        <h2>Elementos</h2>
+        <p>Quando dois efeitos incompatíveis se encontram no mesmo alvo, eles se consomem em uma reação.</p>
+        <p class="rune-hint">Toque em uma runa para ver as combinações.</p>
+        <ul class="elements" id="elementos" aria-label="Elementos"></ul>
+        <div class="combos" id="combinacoes" aria-live="polite" hidden></div>
+      </div>
+    </article>
+
+    <article class="sheet wide">
+      <div class="page">
+        <h2>Th. Family</h2>
+        <p>Neste reino a composição familiar surge da junção da letra do pai, seguido pela segunda letra da mãe.</p>
+        <p class="lead family-mark">T.H.</p>
+        <div class="cast">
+          <figure>
+            <div class="portrait"><img src="assets/sprites/thucker-idle.gif" alt="Thucker segurando o livro vermelho" width="231" height="259"></div>
+            <figcaption>
+              <h3>Thucker</h3>
+              <p>O summoner que não teve o privilégio de vir com um companion de nascença, como acontece com todos os magos do reino.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <div class="portrait"><div class="sheet-anim thallya" role="img" aria-label="Thalya em guarda"></div></div>
+            <figcaption>
+              <h3>Thalya</h3>
+              <p>Comandante de guerra, líder da brigada e a número 1 para fazer os trabalhos mais cruéis.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <header class="chapter">
+      <h2>Bestiário</h2>
+      <p>Páginas recuperadas: 7 de 100</p>
+    </header>
+
+    <div class="bestiary">
+      <article class="sheet small">
+        <div class="page">
+          <div class="creature"><img src="assets/sprites/batskull-idle.gif" alt="BatSkull" loading="lazy"></div>
+          <h3>BatSkull</h3>
+          <span class="el" data-el="sombra">Sombra</span>
+          <p class="quote">Uma criatura alada com um crânio exposto que espreita no teto das celas escuras, atacando de surpresa.</p>
+          <p class="drop">Derruba: <strong>Mordida das Sombras</strong></p>
+        </div>
+      </article>
+      <article class="sheet small">
+        <div class="page">
+          <div class="creature"><img src="assets/sprites/goblin-idle.gif" alt="Goblin da Masmorra" loading="lazy"></div>
+          <h3>Goblin da Masmorra</h3>
+          <span class="el" data-el="fogo">Fogo</span>
+          <p class="quote">Sorrateiros e agressivos. Portam armas rústicas e atacam com fúria elemental quando acuados.</p>
+          <p class="drop">Derruba: <strong>Golpe de Adaga</strong></p>
+        </div>
+      </article>
+      <article class="sheet small">
+        <div class="page">
+          <div class="creature"><img src="assets/sprites/slime-idle.gif" alt="Slime Ácido" loading="lazy"></div>
+          <h3>Slime Ácido</h3>
+          <span class="el" data-el="agua">Água</span>
+          <p class="quote">Uma bolha gelatinosa e ácida que rasteja pelo esgoto imperial, corroendo equipamentos.</p>
+          <p class="drop">Derruba: <strong>Investida Ácida</strong></p>
+        </div>
+      </article>
+      <article class="sheet small">
+        <div class="page">
+          <div class="creature"><img src="assets/sprites/zhara-idle.gif" alt="Zhara, a Sem Volta" loading="lazy"></div>
+          <h3>Zhara, a Sem Volta</h3>
+          <span class="el" data-el="sombra">Sombra</span>
+          <p class="quote">Uma guerreira sombria corrompida pelo confinamento imperial. Suas lâminas pesadas drenam a energia vital de Thucker.</p>
+          <p class="drop">Derruba: <strong>Corte de Lâmina Escura</strong></p>
+        </div>
+      </article>
+      <article class="sheet small">
+        <div class="page">
+          <div class="creature unknown" aria-hidden="true">?</div>
+          <h3>Sparkbit</h3>
+          <span class="el" data-el="eletrico">Elétrico</span>
+          <p class="quote">Roedor hiperativo e ágil cuja pelagem acumula eletricidade estática durante movimentos bruscos.</p>
+          <p class="drop">Derruba: <strong>Descarga Rápida</strong></p>
+        </div>
+      </article>
+      <article class="sheet small">
+        <div class="page">
+          <div class="creature unknown" aria-hidden="true">?</div>
+          <h3>Skulmurai</h3>
+          <span class="el" data-el="sombra">Sombra</span>
+          <p class="quote">Guerreiro esqueleto caído que ainda mantém sua disciplina marcial, desferindo golpes precisos no escuro.</p>
+        </div>
+      </article>
+      <article class="sheet small">
+        <div class="page">
+          <div class="creature unknown" aria-hidden="true">?</div>
+          <h3>TreeWitch</h3>
+          <span class="el" data-el="natureza">Natureza</span>
+          <p class="quote">Entidade da flora corrompida. Seus galhos absorvem a umidade da masmorra para regenerar sua casca.</p>
+        </div>
+      </article>
+    </div>
+
+    <article class="sheet">
+      <div class="page center">
+        <h2>Onde jogar</h2>
+        <ul class="platforms"><li>Steam</li><li>Android</li></ul>
+        <p>Textos e dublagem em português do Brasil.</p>
+        <p class="status">Em desenvolvimento</p>
+      </div>
+    </article>
+
+  </main>
+
+  <footer>Th.End</footer>
+
+  <div class="reader" id="leitor" hidden role="dialog" aria-modal="true" aria-labelledby="leitor-titulo">
+    <div class="sheet in">
+      <div class="page">
+        <button class="reader-close" type="button" aria-label="Fechar página">×</button>
+        <h2 id="leitor-titulo"></h2>
+        <div id="leitor-corpo"></div>
+        <nav class="reader-nav">
+          <button type="button" id="leitor-ant">◀ Anterior</button>
+          <button type="button" id="leitor-prox">Próxima ▶</button>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/scene.js"></script>
+  <script src="js/intro.js"></script>
+  <script src="js/pages.js"></script>
+  <script src="js/diario.js"></script>
+  <script src="js/elements.js"></script>
+
+</body>
+</html>
