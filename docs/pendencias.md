@@ -2,6 +2,8 @@
 
 Decisões em aberto no GDD. Marque a resposta embaixo de cada item quando decidir.
 
+As pendências do site de apresentação (diário, elementos, bestiário, GitHub Pages) estão em [`conversas/01-site-de-apresentacao.md`](conversas/01-site-de-apresentacao.md#pendências-desta-sessão).
+
 ## Decisões em aberto
 
 1. **Morte e recomeço.** O roguelike pede que a run recomece, mas uma descida linear de 100 andares não combina com recomeçar sempre do andar 1. Haverá pontos de retorno (por exemplo, a cada 10 andares)? O que fica entre uma run e outra: bestiário, diário, cristais?
@@ -19,7 +21,7 @@ Decisões em aberto no GDD. Marque a resposta embaixo de cada item quando decidi
 5. **Bag builder.** A bolsa é uma grade espacial, em que o formato e a posição dos itens importam?
    - Resposta: _a definir_
 
-6. **Elementos.** O texto fala em efeitos "incompatíveis", mas todos os 45 pares têm combinação. Toda dupla reage? Dois efeitos do mesmo elemento acumulam?
+6. **Elementos.** O texto fala em efeitos "incompatíveis", mas todos os 45 pares têm combinação. Toda dupla reage? Dois efeitos do mesmo elemento acumulam? (Os nomes das 45 combinações ainda são proposta; ver pendência 3 do site.)
    - Resposta: _a definir_
 
 ## Proposta: modo companheiro (notebook)

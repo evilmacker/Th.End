@@ -20,8 +20,10 @@ Th.End/
 │   │   ├── pages.js     folhas rasgadas em pixel art
 │   │   └── scene.js     cenário de fundo
 │   └── assets/          logo, sprites e fotos das páginas do diário
+├── CLAUDE.md            regras de trabalho (lidas automaticamente pelo Claude)
 └── docs/
-    └── pendencias.md    decisões de design em aberto e proposta do modo companheiro
+    ├── pendencias.md    decisões de design em aberto e proposta do modo companheiro
+    └── conversas/       resumos de conversas anteriores sobre o Th.End
 ```
 
 O texto de **O que restou**, **Cem andares**, **Th. Family** e do **Bestiário** fica direto no `gdd/index.html`.
