@@ -71,3 +71,15 @@ git pull
 - **Nova página do diário:** em `gdd/js/diario.js`, copie um bloco `{ ... }` da lista `DIARIO` e preencha `texto`, `titulo`, `antes` ou `pixel`. As fotos vão em `gdd/assets/diario/`.
 - **Elementos e combinações:** `gdd/js/elements.js` (`ELEMENTOS` e `COMBINACOES`).
 - **Nova criatura no bestiário:** copie um bloco `<article class="sheet small">` em `gdd/index.html`. O sprite vai em `gdd/assets/sprites/`.
+
+## Mapa de conhecimento (graphify)
+
+A pasta `graphify-out/` guarda um mapa de tudo o que está no repositório: personagens, lore, mecânicas, arquivos e como eles se ligam.
+
+- **Ver o mapa:** abra `graphify-out/graph.html` no navegador. O resumo fica em `graphify-out/GRAPH_REPORT.md`.
+- **Atualização automática:** a cada `git push`, o GitHub roda a Action "Atualizar mapa (graphify)":
+  - mudanças em código (`.js` etc.) entram no mapa sozinhas, sem custo;
+  - documentos e imagens alterados são listados em `graphify-out/PENDENTE.md`.
+- **Quando existir `graphify-out/PENDENTE.md`:** peça ao Claude `/graphify . --update`. Ele relê só esses arquivos.
+- A Action também pode ser rodada à mão no GitHub: aba **Actions** → "Atualizar mapa (graphify)" → **Run workflow**.
+- Depois que a Action roda, ela faz um commit no repositório. Por isso, rode `git pull` antes de editar.

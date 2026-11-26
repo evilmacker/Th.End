@@ -9,6 +9,7 @@ Roguelike de cartas em pixel art dark fantasy (Steam e Android, PT-BR). Leia `RE
 - **Direção visual rejeitada:** `ThEnd_ApresentacaoGrafica.html` do Drive. A lore e as mecânicas dele valem, corrigidas para 100 andares e drops de habilidade.
 - **Arte do diário:** sem contorno e sem filtro de cor; só enquadrar e recortar o branco do papel.
 - **Ferramentas:** prefira soluções gratuitas.
+- **Mapa pendente:** se `graphify-out/PENDENTE.md` existir, documentos ou imagens mudaram desde a última leitura. Avise o usuário e ofereça rodar `/graphify . --update`; depois disso, apague o `PENDENTE.md`.
 
 ## graphify
 
