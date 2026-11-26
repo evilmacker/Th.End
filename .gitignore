@@ -2,3 +2,7 @@
 Thumbs.db
 desktop.ini
 .vscode/
+
+# graphify: arquivos temporários e cache
+graphify-out/.graphify_*
+graphify-out/cache/
