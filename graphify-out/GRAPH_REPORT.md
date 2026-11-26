@@ -1,17 +1,18 @@
 # Graph Report - Th.End  (2026-11-26)
 
 ## Corpus Check
-- 15 files · ~22,880 words
+- 16 files · ~23,137 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 9 file(s) not represented in the graph (top: (none) 3, .css 1, .ttf 1)
+- Unclassified: 30 file(s) not represented in the graph (top: .import 11, .uid 6, .gd 5)
+- WARNING: 30 of 70 files seen (43%) have no supported extractor and are missing from this graph entirely. It may look complete while representing only part of the codebase.
 
 ## Summary
-- 301 nodes · 465 edges · 24 communities (21 shown, 3 thin omitted)
+- 306 nodes · 469 edges · 25 communities (22 shown, 3 thin omitted)
 - Extraction: 87% EXTRACTED · 11% INFERRED · 2% AMBIGUOUS · INFERRED: 51 edges (avg confidence: 0.84)
 - Token cost: 1,068,827 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c51d5cfc`
+- Built from commit: `7fcfe250`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -39,7 +40,8 @@
 - Runas (elements.js)
 - Regras do graphify
 - diario.js
-- LEIA-ME.md
+- gerado/LEIA-ME.md
+- Th.End — projeto Godot
 
 ## God Nodes (most connected - your core abstractions)
 1. `COMBINACOES` - 46 edges
@@ -54,16 +56,16 @@
 10. `Elemento Loucura` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `Resumo da sessão: site de apresentação` --conceptually_related_to--> `Regras de trabalho do Claude (Th.End)`  [INFERRED]
+  docs/conversas/01-site-de-apresentacao.md → CLAUDE.md
 - `Folha 'O Diário do Thucker' (#diario-indice)` --shares_data_with--> `gdd/js/diario.js (lista DIARIO)`  [INFERRED]
   gdd/index.html → README.md
 - `Página publicada (artifact)` --references--> `GDD visual (gdd/index.html)`  [INFERRED]
   docs/conversas/01-site-de-apresentacao.md → gdd/index.html
 - `Leitor de páginas (#leitor)` --shares_data_with--> `gdd/js/diario.js (lista DIARIO)`  [INFERRED]
   gdd/index.html → README.md
-- `Resumo da sessão: site de apresentação` --conceptually_related_to--> `Regras de trabalho do Claude (Th.End)`  [INFERRED]
-  docs/conversas/01-site-de-apresentacao.md → CLAUDE.md
-- `Reino de Ghurd` --conceptually_related_to--> `Masmorra de Ghurd (cem andares)`  [INFERRED]
-  docs/conversas/01-site-de-apresentacao.md → README.md
+- `Folha 'Cem andares'` --conceptually_related_to--> `100 andares, 100 criaturas, 400 habilidades`  [INFERRED]
+  gdd/index.html → docs/conversas/01-site-de-apresentacao.md
 
 ## Import Cycles
 - None detected.
@@ -85,7 +87,7 @@
 - **Combinações de dreno de vida/energia (Vampirismo)** — gdd_js_elements_combo_mare_rubra, gdd_js_elements_combo_sifao, gdd_js_elements_combo_parasita, gdd_js_elements_combo_sangria, gdd_js_elements_combo_fome [INFERRED 0.85]
 - **Segredo de família Th (Zhara, Thucker, Thalya)** — claude_segredo_de_enredo_zhara, docs_conversas_01_site_de_apresentacao_zhara_a_sem_volta, docs_conversas_01_site_de_apresentacao_regra_nome_familia, docs_conversas_01_site_de_apresentacao_thalya, readme_thucker, gdd_index_th_family [INFERRED 0.85]
 
-## Communities (24 total, 3 thin omitted)
+## Communities (25 total, 3 thin omitted)
 
 ### Community 0 - "Combinações de elementos"
 Cohesion: 0.09
@@ -171,6 +173,10 @@ Nodes (19): runs-on, steps, concurrency, cancel-in-progress, group, jobs, atuali
 Cohesion: 0.60
 Nodes (4): open(), pixelArt(), retear(), show()
 
+### Community 24 - "Th.End — projeto Godot"
+Cohesion: 0.40
+Nodes (4): Como funciona, Como rodar no Avell, Teste automático (sem abrir janela), Th.End — projeto Godot
+
 ## Ambiguous Edges - Review These
 - `Capuz/manto escuro de penas ou trapos` → `Goblin da Masmorra`  [AMBIGUOUS]
   gdd/assets/sprites/goblin-idle.gif · relation: conceptually_related_to
@@ -194,23 +200,23 @@ Nodes (4): open(), pixelArt(), retear(), show()
   gdd/assets/diario/pagina-5.jpg · relation: references
 
 ## Knowledge Gaps
-- **64 isolated node(s):** `Reino de Ghurd`, `Thalya, comandante de guerra`, `Plataformas: Steam primeiro, Android depois`, `Capuz/manto escuro de penas ou trapos`, `Duas cimitarras curvas` (+59 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 85 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **64 isolated node(s):** `10 elementos (Fogo, Água, Elétrico, Natureza, Sombra, Luz, Ácido, Vampirismo, Loucura, Vazio)`, `Reino de Ghurd`, `Thalya, comandante de guerra`, `Estrutura do andar`, `Habilidade × carta × deck` (+59 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 89 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Elemento Ácido` connect `Combinações de elementos` to `Diário: páginas e Gosma`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
+  _High betweenness centrality (0.029) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `Elemento Ácido` (e.g. with `Cristal (núcleo da Gosma)` and `Poder corrosivo absorvido`) actually correct?**
   _`Elemento Ácido` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `Reino de Ghurd`, `Thalya, comandante de guerra`, `Plataformas: Steam primeiro, Android depois` to the rest of the system?**
+- **What connects `10 elementos (Fogo, Água, Elétrico, Natureza, Sombra, Luz, Ácido, Vampirismo, Loucura, Vazio)`, `Reino de Ghurd`, `Thalya, comandante de guerra` to the rest of the system?**
   _64 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Combinações de elementos` be split into smaller, more focused modules?**
   _Cohesion score 0.08531073446327683 - nodes in this community are weakly interconnected._
 - **Why does `Poder corrosivo absorvido` connect `Diário: páginas e Gosma` to `Combinações de elementos`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 
 ### Low-confidence Hints
 _AMBIGUOUS edges — the extractor was unsure. Verify before acting on these._
