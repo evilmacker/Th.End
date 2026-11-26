@@ -1,151 +1,151 @@
 {
   ".claude/settings.json": {
-    "mtime": 1795653811.7737591,
-    "seen": 1795653827.0843737,
+    "mtime": 1795653855.7012467,
+    "seen": 1795653869.6094563,
     "ast_hash": "a440882d3105da08f78f3368d5ac5555",
     "semantic_hash": "a440882d3105da08f78f3368d5ac5555"
   },
   "gdd/js/diario.js": {
-    "mtime": 1795653811.7890494,
-    "seen": 1795653827.0843844,
+    "mtime": 1795653855.715824,
+    "seen": 1795653869.6094675,
     "ast_hash": "dc69b70b2bb354499e8a9ef39580a079",
     "semantic_hash": "dc69b70b2bb354499e8a9ef39580a079"
   },
   "gdd/js/elements.js": {
-    "mtime": 1795653811.7890494,
-    "seen": 1795653827.0843873,
+    "mtime": 1795653855.716512,
+    "seen": 1795653869.60947,
     "ast_hash": "70f3381ae8c569231b33d4b5a5496922",
     "semantic_hash": "70f3381ae8c569231b33d4b5a5496922"
   },
   "gdd/js/intro.js": {
-    "mtime": 1795653811.7890494,
-    "seen": 1795653827.0843894,
+    "mtime": 1795653855.716512,
+    "seen": 1795653869.6094718,
     "ast_hash": "78b8a2c2e7795138c026b4c6c2f72cda",
     "semantic_hash": "78b8a2c2e7795138c026b4c6c2f72cda"
   },
   "gdd/js/pages.js": {
-    "mtime": 1795653811.7890494,
-    "seen": 1795653827.084391,
+    "mtime": 1795653855.716512,
+    "seen": 1795653869.6094737,
     "ast_hash": "80c5d02350adebdb99d7bf5421ad1bcb",
     "semantic_hash": "80c5d02350adebdb99d7bf5421ad1bcb"
   },
   "gdd/js/scene.js": {
-    "mtime": 1795653811.7890494,
-    "seen": 1795653827.084393,
+    "mtime": 1795653855.716512,
+    "seen": 1795653869.6094754,
     "ast_hash": "51f8ead8699d106dd2a9637306353ef5",
     "semantic_hash": "51f8ead8699d106dd2a9637306353ef5"
   },
   ".claude/CLAUDE.md": {
-    "mtime": 1795653811.7720494,
-    "seen": 1795653827.0843947,
+    "mtime": 1795653855.6998239,
+    "seen": 1795653869.609477,
     "ast_hash": "9b31786b637be3c13978bec4c2330752",
     "semantic_hash": "9b31786b637be3c13978bec4c2330752"
   },
   "CLAUDE.md": {
-    "mtime": 1795653811.7750077,
-    "seen": 1795653827.0843964,
-    "ast_hash": "ee248aa3d364d062267a83915432a7ec",
-    "semantic_hash": "ee248aa3d364d062267a83915432a7ec"
+    "mtime": 1795653855.7025626,
+    "seen": 1795653869.6094787,
+    "ast_hash": "00da9a5a64b942bb582817eedce4cfbb",
+    "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795653811.7750077,
-    "seen": 1795653827.0843978,
-    "ast_hash": "72e74264e0cc6f4800fcfa53c6858bcb",
-    "semantic_hash": "72e74264e0cc6f4800fcfa53c6858bcb"
+    "mtime": 1795653855.7025626,
+    "seen": 1795653869.6094804,
+    "ast_hash": "ff49ac50a0f76d43d3584dde6f09456a",
+    "semantic_hash": ""
   },
   "docs/conversas/01-site-de-apresentacao.md": {
-    "mtime": 1795653811.7753148,
-    "seen": 1795653827.0844,
+    "mtime": 1795653855.7028584,
+    "seen": 1795653869.6094823,
     "ast_hash": "abbaec157218d197efeec15ba004b2f0",
     "semantic_hash": "abbaec157218d197efeec15ba004b2f0"
   },
   "docs/pendencias.md": {
-    "mtime": 1795653811.7753148,
-    "seen": 1795653827.0844018,
+    "mtime": 1795653855.7028584,
+    "seen": 1795653869.6094842,
     "ast_hash": "ddbf7fc320f2ca7997795e640cd034ec",
     "semantic_hash": "ddbf7fc320f2ca7997795e640cd034ec"
   },
   "gdd/index.html": {
-    "mtime": 1795653811.7880492,
-    "seen": 1795653827.084404,
+    "mtime": 1795653855.7148237,
+    "seen": 1795653869.6094859,
     "ast_hash": "08996e5ea8da2b1ef4187fa13401f0d4",
     "semantic_hash": "08996e5ea8da2b1ef4187fa13401f0d4"
   },
   "gdd/assets/book-front.webp": {
-    "mtime": 1795653811.7755585,
-    "seen": 1795653827.0844057,
+    "mtime": 1795653855.7030997,
+    "seen": 1795653869.6094873,
     "ast_hash": "528b9c2655c1346a2c85fd8f299bfda1",
     "semantic_hash": "528b9c2655c1346a2c85fd8f299bfda1"
   },
   "gdd/assets/diario/pagina-2.jpg": {
-    "mtime": 1795653811.7758524,
-    "seen": 1795653827.0844073,
+    "mtime": 1795653855.703411,
+    "seen": 1795653869.609489,
     "ast_hash": "6a87bee328728073128bd26b5fae695e",
     "semantic_hash": "6a87bee328728073128bd26b5fae695e"
   },
   "gdd/assets/diario/pagina-3.jpg": {
-    "mtime": 1795653811.776133,
-    "seen": 1795653827.084409,
+    "mtime": 1795653855.703664,
+    "seen": 1795653869.6094904,
     "ast_hash": "7a25a737e7287238225c6faf21d229cc",
     "semantic_hash": "7a25a737e7287238225c6faf21d229cc"
   },
   "gdd/assets/diario/pagina-4.jpg": {
-    "mtime": 1795653811.776133,
-    "seen": 1795653827.0844107,
+    "mtime": 1795653855.703664,
+    "seen": 1795653869.609492,
     "ast_hash": "0b85413902f0820f8c51dac7c07f2b48",
     "semantic_hash": "0b85413902f0820f8c51dac7c07f2b48"
   },
   "gdd/assets/diario/pagina-5.jpg": {
-    "mtime": 1795653811.776133,
-    "seen": 1795653827.084412,
+    "mtime": 1795653855.7038238,
+    "seen": 1795653869.6094933,
     "ast_hash": "9414ed462f2063d8cf368859eb38a38b",
     "semantic_hash": "9414ed462f2063d8cf368859eb38a38b"
   },
   "gdd/assets/logo.png": {
-    "mtime": 1795653811.7770493,
-    "seen": 1795653827.0844135,
+    "mtime": 1795653855.7048237,
+    "seen": 1795653869.6094947,
     "ast_hash": "c91ac0a5d2520db50aec8e1735b5b96a",
     "semantic_hash": "c91ac0a5d2520db50aec8e1735b5b96a"
   },
   "gdd/assets/sprites/batskull-idle.gif": {
-    "mtime": 1795653811.7780492,
-    "seen": 1795653827.084415,
+    "mtime": 1795653855.7058237,
+    "seen": 1795653869.6094964,
     "ast_hash": "f8eb589d533de75fc096715fe6528963",
     "semantic_hash": "f8eb589d533de75fc096715fe6528963"
   },
   "gdd/assets/sprites/goblin-idle.gif": {
-    "mtime": 1795653811.7800493,
-    "seen": 1795653827.0844169,
+    "mtime": 1795653855.7078238,
+    "seen": 1795653869.609498,
     "ast_hash": "a4edb6cf1583a1d58732b2b676a7bb28",
     "semantic_hash": "a4edb6cf1583a1d58732b2b676a7bb28"
   },
   "gdd/assets/sprites/slime-idle.gif": {
-    "mtime": 1795653811.7810493,
-    "seen": 1795653827.084418,
+    "mtime": 1795653855.7088237,
+    "seen": 1795653869.6094997,
     "ast_hash": "d1786ea97db5836cd970f44bfb81d554",
     "semantic_hash": "d1786ea97db5836cd970f44bfb81d554"
   },
   "gdd/assets/sprites/thallya-idle.png": {
-    "mtime": 1795653811.7830493,
-    "seen": 1795653827.0844197,
+    "mtime": 1795653855.7108238,
+    "seen": 1795653869.6095011,
     "ast_hash": "5cbfc24f0083cb38fe1fbe2538a3b51f",
     "semantic_hash": "5cbfc24f0083cb38fe1fbe2538a3b51f"
   },
   "gdd/assets/sprites/thucker-idle.gif": {
-    "mtime": 1795653811.7840493,
-    "seen": 1795653827.0844214,
+    "mtime": 1795653855.7128239,
+    "seen": 1795653869.6095028,
     "ast_hash": "67199fc9e8cf34a50ab1ffa78345691f",
     "semantic_hash": "67199fc9e8cf34a50ab1ffa78345691f"
   },
   "gdd/assets/sprites/zhara-idle.gif": {
-    "mtime": 1795653811.7880492,
-    "seen": 1795653827.0844228,
+    "mtime": 1795653855.7148237,
+    "seen": 1795653869.6095045,
     "ast_hash": "4a74a54b5bd428dbda456ed4c3323f45",
     "semantic_hash": "4a74a54b5bd428dbda456ed4c3323f45"
   },
   ".github/workflows/graphify.yml": {
-    "mtime": 1795653811.7750077,
-    "seen": 1795653827.0843804,
+    "mtime": 1795653855.7025626,
+    "seen": 1795653869.6094635,
     "ast_hash": "c979ceb81188f7aee0ac6475b74db1c8",
     "semantic_hash": ""
   }
