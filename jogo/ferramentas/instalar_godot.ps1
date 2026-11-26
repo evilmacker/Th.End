@@ -31,8 +31,15 @@ $link.WorkingDirectory = $destino
 $link.Save()
 Write-Host "Atalho criado na area de trabalho: Godot"
 
-# Abre o projeto Th.End direto no editor
-$projeto = (Resolve-Path (Join-Path $PSScriptRoot '..\project.godot')).Path
-Write-Host "Abrindo o projeto $projeto ..."
-Start-Process -FilePath $exe -ArgumentList @('--editor', "`"$projeto`"")
-Write-Host "Pronto. No editor, aperte F5 para rodar o modo idle."
+# Abre o projeto Th.End direto no editor, se o instalador estiver dentro do repositório
+$projeto = Join-Path $PSScriptRoot '..\project.godot'
+if (Test-Path $projeto) {
+    $projeto = (Resolve-Path $projeto).Path
+    Write-Host "Abrindo o projeto $projeto ..."
+    Start-Process -FilePath $exe -ArgumentList @('--editor', "`"$projeto`"")
+    Write-Host "Pronto. No editor, aperte F5 para rodar o modo idle."
+} else {
+    Write-Host "Projeto Th.End nao encontrado ao lado do instalador. Abrindo o Godot..."
+    Start-Process -FilePath $exe
+    Write-Host "No Godot, clique em Importar e escolha jogo\project.godot do repositorio Th.End."
+}
