@@ -1,12 +1,19 @@
 # Graph Report - Th.End  (2026-11-26)
 
 ## Corpus Check
-- Corpus is ~21,654 words - fits in a single context window. You may not need a graph.
+- 12 files · ~21,924 words
+- Verdict: corpus is large enough that graph structure adds value.
+- Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .css 1)
 
 ## Summary
-- 272 nodes · 437 edges · 22 communities (20 shown, 2 thin omitted)
-- Extraction: 86% EXTRACTED · 12% INFERRED · 2% AMBIGUOUS · INFERRED: 51 edges (avg confidence: 0.84)
+- 292 nodes · 456 edges · 22 communities (21 shown, 1 thin omitted)
+- Extraction: 87% EXTRACTED · 11% INFERRED · 2% AMBIGUOUS · INFERRED: 51 edges (avg confidence: 0.84)
 - Token cost: 1,068,827 input · 0 output
+
+## Graph Freshness
+- Built from commit: `d12560fa`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Combinações de elementos
@@ -37,50 +44,50 @@
 2. `GDD visual (gdd/index.html)` - 13 edges
 3. `Elemento Ácido` - 12 edges
 4. `ELEMENTOS` - 11 edges
-5. `Elemento Sombra` - 11 edges
-6. `Elemento Luz` - 11 edges
-7. `Elemento Fogo` - 10 edges
-8. `Elemento Água` - 10 edges
-9. `Elemento Elétrico` - 10 edges
-10. `Elemento Natureza` - 10 edges
+5. `Elemento Luz` - 11 edges
+6. `Elemento Sombra` - 11 edges
+7. `Elemento Água` - 10 edges
+8. `Elemento Elétrico` - 10 edges
+9. `Elemento Fogo` - 10 edges
+10. `Elemento Loucura` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Resumo da sessão: site de apresentação` --conceptually_related_to--> `Regras de trabalho do Claude (Th.End)`  [INFERRED]
   docs/conversas/01-site-de-apresentacao.md → CLAUDE.md
 - `Folha 'O Diário do Thucker' (#diario-indice)` --shares_data_with--> `gdd/js/diario.js (lista DIARIO)`  [INFERRED]
   gdd/index.html → README.md
-- `Leitor de páginas (#leitor)` --shares_data_with--> `gdd/js/diario.js (lista DIARIO)`  [INFERRED]
-  gdd/index.html → README.md
 - `Página publicada (artifact)` --references--> `GDD visual (gdd/index.html)`  [INFERRED]
   docs/conversas/01-site-de-apresentacao.md → gdd/index.html
-- `Regras de uso do graphify` --conceptually_related_to--> `graphify skill (/graphify)`  [INFERRED]
-  CLAUDE.md → .claude/CLAUDE.md
+- `Leitor de páginas (#leitor)` --shares_data_with--> `gdd/js/diario.js (lista DIARIO)`  [INFERRED]
+  gdd/index.html → README.md
+- `Folha 'Cem andares'` --conceptually_related_to--> `100 andares, 100 criaturas, 400 habilidades`  [INFERRED]
+  gdd/index.html → docs/conversas/01-site-de-apresentacao.md
 
 ## Import Cycles
 - None detected.
 
 ## Hyperedges (group relationships)
-- **Segredo de família Th (Zhara, Thucker, Thalya)** — claude_segredo_de_enredo_zhara, docs_conversas_01_site_de_apresentacao_zhara_a_sem_volta, docs_conversas_01_site_de_apresentacao_regra_nome_familia, docs_conversas_01_site_de_apresentacao_thalya, readme_thucker, gdd_index_th_family [INFERRED 0.85]
-- **Scripts que montam o GDD visual** — gdd_index_gdd_page, readme_scene_js, readme_intro_js, readme_pages_js, readme_diario_js, readme_elements_js [EXTRACTED 1.00]
 - **Mecânicas centrais em aberto** — docs_pendencias_morte_e_recomeco, docs_pendencias_habilidade_x_carta, docs_pendencias_estrutura_do_andar, docs_pendencias_400_habilidades, docs_pendencias_bag_builder, docs_pendencias_elementos_reacoes [EXTRACTED 1.00]
-- **Combinações de dreno de vida/energia (Vampirismo)** — gdd_js_elements_combo_mare_rubra, gdd_js_elements_combo_sifao, gdd_js_elements_combo_parasita, gdd_js_elements_combo_sangria, gdd_js_elements_combo_fome [INFERRED 0.85]
-- **Combinações que impedem cura/recuperação** — gdd_js_elements_combo_febre, gdd_js_elements_combo_estiagem, gdd_js_elements_combo_ermo [INFERRED 0.85]
-- **Arco da Gosma: derrota, núcleo e poder absorvido** — gdd_js_diario_gosma_devorador_de_cadaveres, gdd_js_diario_cristal_nucleo_da_gosma, gdd_js_diario_poder_corrosivo, gdd_js_diario_thucker, gdd_js_diario_primeiro_andar [EXTRACTED 1.00]
-- **Três representações da Gosma na página** — gdd_assets_diario_pagina_2_gosma, gdd_assets_diario_pagina_2_gosma_verde, gdd_assets_diario_pagina_2_gosma_vermelha, gdd_assets_diario_pagina_2_gosma_grande [INFERRED 0.85]
-- **Derrota da Gosma e absorção do poder corrosivo** — gdd_assets_diario_pagina_3_thucker, gdd_assets_diario_pagina_3_coracao_da_gosma, gdd_assets_diario_pagina_3_poder_corrosivo, gdd_assets_diario_pagina_3_absorcao_de_poder [INFERRED 0.85]
-- **Retorno a Ghurd no Dia 2** — gdd_assets_diario_pagina_4_dia_2, gdd_assets_diario_pagina_4_ghurd, gdd_assets_diario_pagina_4_dormitorio_decrepito, gdd_assets_diario_pagina_4_thucker [INFERRED 0.75]
 - **Thucker leva o cristal da Gosma para questionar Thalya** — gdd_assets_diario_pagina_5_thucker, gdd_assets_diario_pagina_5_cristal_gosma, gdd_assets_diario_pagina_5_thalya [EXTRACTED 1.00]
 - **Logo composition: book, lettering, crest and frame** — gdd_assets_logo_open_book, gdd_assets_logo_th_end_lettering, gdd_assets_logo_glowing_orbs, gdd_assets_logo_horned_frame, gdd_assets_logo_drips [EXTRACTED 1.00]
 - **BatSkull anatomy: skull, wings, eye, fangs** — gdd_assets_sprites_batskull_idle_batskull, gdd_assets_sprites_batskull_idle_floating_skull, gdd_assets_sprites_batskull_idle_bat_wings, gdd_assets_sprites_batskull_idle_bloodshot_eye, gdd_assets_sprites_batskull_idle_fangs [EXTRACTED 1.00]
 - **Design visual do Slime Ácido (idle)** — gdd_assets_sprites_slime_idle_gelatinous_body, gdd_assets_sprites_slime_idle_inner_skull, gdd_assets_sprites_slime_idle_blue_horn, gdd_assets_sprites_slime_idle_happy_face, gdd_assets_sprites_slime_idle_bubbles [EXTRACTED 1.00]
 - **Thalya idle depiction: character, armor, sword** — gdd_assets_sprites_thallya_idle_thalya, gdd_assets_sprites_thallya_idle_armor, gdd_assets_sprites_thallya_idle_sword [EXTRACTED 1.00]
 - **Thucker holding red book in idle stance** — gdd_assets_sprites_thucker_idle_thucker, gdd_assets_sprites_thucker_idle_red_book, gdd_assets_sprites_thucker_idle_idle_stance [EXTRACTED 1.00]
+- **Arco da Gosma: derrota, núcleo e poder absorvido** — gdd_js_diario_gosma_devorador_de_cadaveres, gdd_js_diario_cristal_nucleo_da_gosma, gdd_js_diario_poder_corrosivo, gdd_js_diario_thucker, gdd_js_diario_primeiro_andar [EXTRACTED 1.00]
+- **Scripts que montam o GDD visual** — gdd_index_gdd_page, readme_scene_js, readme_intro_js, readme_pages_js, readme_diario_js, readme_elements_js [EXTRACTED 1.00]
+- **Retorno a Ghurd no Dia 2** — gdd_assets_diario_pagina_4_dia_2, gdd_assets_diario_pagina_4_ghurd, gdd_assets_diario_pagina_4_dormitorio_decrepito, gdd_assets_diario_pagina_4_thucker [INFERRED 0.75]
+- **Três representações da Gosma na página** — gdd_assets_diario_pagina_2_gosma, gdd_assets_diario_pagina_2_gosma_verde, gdd_assets_diario_pagina_2_gosma_vermelha, gdd_assets_diario_pagina_2_gosma_grande [INFERRED 0.85]
+- **Derrota da Gosma e absorção do poder corrosivo** — gdd_assets_diario_pagina_3_thucker, gdd_assets_diario_pagina_3_coracao_da_gosma, gdd_assets_diario_pagina_3_poder_corrosivo, gdd_assets_diario_pagina_3_absorcao_de_poder [INFERRED 0.85]
+- **Combinações que impedem cura/recuperação** — gdd_js_elements_combo_febre, gdd_js_elements_combo_estiagem, gdd_js_elements_combo_ermo [INFERRED 0.85]
+- **Combinações de dreno de vida/energia (Vampirismo)** — gdd_js_elements_combo_mare_rubra, gdd_js_elements_combo_sifao, gdd_js_elements_combo_parasita, gdd_js_elements_combo_sangria, gdd_js_elements_combo_fome [INFERRED 0.85]
+- **Segredo de família Th (Zhara, Thucker, Thalya)** — claude_segredo_de_enredo_zhara, docs_conversas_01_site_de_apresentacao_zhara_a_sem_volta, docs_conversas_01_site_de_apresentacao_regra_nome_familia, docs_conversas_01_site_de_apresentacao_thalya, readme_thucker, gdd_index_th_family [INFERRED 0.85]
 
-## Communities (22 total, 2 thin omitted)
+## Communities (22 total, 1 thin omitted)
 
 ### Community 0 - "Combinações de elementos"
 Cohesion: 0.09
-Nodes (57): COMBINACOES, Combinação Abismo (Água + Sombra), Combinação Alucinação (Natureza + Loucura), Combinação Alvejar (Luz + Ácido), Combinação Amnésia (Ácido + Loucura), Combinação Aniquilação (Sombra + Luz), Combinação Apagão (Elétrico + Sombra), Combinação Brasa Negra (Fogo + Sombra) (+49 more)
+Nodes (59): COMBINACOES, Combinação Abismo (Água + Sombra), Combinação Alucinação (Natureza + Loucura), Combinação Alvejar (Luz + Ácido), Combinação Amnésia (Ácido + Loucura), Combinação Aniquilação (Sombra + Luz), Combinação Apagão (Elétrico + Sombra), Combinação Brasa Negra (Fogo + Sombra) (+51 more)
 
 ### Community 1 - "Regras e visão geral do jogo"
 Cohesion: 0.08
@@ -158,51 +165,55 @@ Nodes (4): Slash/Claw Scratch Emblem, Book Front Cover (book-front.webp), Thucke
 Cohesion: 0.83
 Nodes (3): edge(), paint(), rng()
 
+### Community 20 - "Runas (elements.js)"
+Cohesion: 0.10
+Nodes (19): runs-on, steps, concurrency, cancel-in-progress, group, jobs, atualizar, name (+11 more)
+
 ## Ambiguous Edges - Review These
-- `Thucker (handwritten cover title)` → `Slash/Claw Scratch Emblem`  [AMBIGUOUS]
-  gdd/assets/book-front.webp · relation: conceptually_related_to
-- `Texto: 'Em algum outro momento eu duvidaria. Duvidaria de mim, das minhas pernas, dos meus olhos. Duvidaria que a morte há de continuar algo após' (leitura incerta)` → `Cadáveres / morte (tema)`  [AMBIGUOUS]
-  gdd/assets/diario/pagina-2.jpg · relation: references
-- `Texto: 'Longe do esperado. Dessa vez não foi o meu fim. Ainda sinto que falta muito para conhecê-las, mas aqui findo meu primeiro andar.'` → `Citação: 'Não houve prazer algum em seguir em frente.'`  [AMBIGUOUS]
-  gdd/assets/diario/pagina-3.jpg · relation: conceptually_related_to
-- `Dia 2 (entrada do diário)` → `Céu sufocante fora da masmorra`  [AMBIGUOUS]
+- `Capuz/manto escuro de penas ou trapos` → `Goblin da Masmorra`  [AMBIGUOUS]
+  gdd/assets/sprites/goblin-idle.gif · relation: conceptually_related_to
+- `Céu sufocante fora da masmorra` → `Dia 2 (entrada do diário)`  [AMBIGUOUS]
   gdd/assets/diario/pagina-4.jpg · relation: references
 - `Dia 2 (entrada do diário)` → `Masmorra`  [AMBIGUOUS]
   gdd/assets/diario/pagina-4.jpg · relation: references
-- `Ghurd` → `Dormitório decrépito e mal cuidado`  [AMBIGUOUS]
+- `Dormitório decrépito e mal cuidado` → `Ghurd`  [AMBIGUOUS]
   gdd/assets/diario/pagina-4.jpg · relation: conceptually_related_to
-- `Thucker (narrador do diario)` → `Ghurd (local de retorno, leitura incerta)`  [AMBIGUOUS]
-  gdd/assets/diario/pagina-5.jpg · relation: references
-- `Glowing Orbs / Eye-like Crest with Flame Spire` → `Dithered Dark Fantasy Style (amber and deep purple palette)`  [AMBIGUOUS]
-  gdd/assets/logo.png · relation: conceptually_related_to
-- `Goblin da Masmorra` → `Capuz/manto escuro de penas ou trapos`  [AMBIGUOUS]
-  gdd/assets/sprites/goblin-idle.gif · relation: conceptually_related_to
-- `Slime Ácido` → `Elemento Água`  [AMBIGUOUS]
+- `Elemento Água` → `Slime Ácido`  [AMBIGUOUS]
   gdd/assets/sprites/slime-idle.gif · relation: conceptually_related_to
+- `Dithered Dark Fantasy Style (amber and deep purple palette)` → `Glowing Orbs / Eye-like Crest with Flame Spire`  [AMBIGUOUS]
+  gdd/assets/logo.png · relation: conceptually_related_to
+- `Slash/Claw Scratch Emblem` → `Thucker (handwritten cover title)`  [AMBIGUOUS]
+  gdd/assets/book-front.webp · relation: conceptually_related_to
+- `Cadáveres / morte (tema)` → `Texto: 'Em algum outro momento eu duvidaria. Duvidaria de mim, das minhas pernas, dos meus olhos. Duvidaria que a morte há de continuar algo após' (leitura incerta)`  [AMBIGUOUS]
+  gdd/assets/diario/pagina-2.jpg · relation: references
+- `Citação: 'Não houve prazer algum em seguir em frente.'` → `Texto: 'Longe do esperado. Dessa vez não foi o meu fim. Ainda sinto que falta muito para conhecê-las, mas aqui findo meu primeiro andar.'`  [AMBIGUOUS]
+  gdd/assets/diario/pagina-3.jpg · relation: conceptually_related_to
+- `Ghurd (local de retorno, leitura incerta)` → `Thucker (narrador do diario)`  [AMBIGUOUS]
+  gdd/assets/diario/pagina-5.jpg · relation: references
 
 ## Knowledge Gaps
-- **64 isolated node(s):** `graphify skill (/graphify)`, `Plataformas: Steam primeiro, Android depois`, `gdd/js/pages.js (folhas rasgadas)`, `Live Server (VS Code)`, `Resumo da sessão: site de apresentação` (+59 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 69 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **64 isolated node(s):** `10 elementos (Fogo, Água, Elétrico, Natureza, Sombra, Luz, Ácido, Vampirismo, Loucura, Vazio)`, `Reino de Ghurd`, `Thalya, comandante de guerra`, `Estrutura do andar`, `Habilidade × carta × deck` (+59 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 80 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `COMBINACOES` connect `Combinações de elementos` to `Runas (elements.js)`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
+- **Why does `Elemento Ácido` connect `Combinações de elementos` to `Diário: páginas e Gosma`?**
+  _High betweenness centrality (0.032) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `Elemento Ácido` (e.g. with `Cristal (núcleo da Gosma)` and `Poder corrosivo absorvido`) actually correct?**
   _`Elemento Ácido` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `graphify skill (/graphify)`, `Plataformas: Steam primeiro, Android depois`, `gdd/js/pages.js (folhas rasgadas)` to the rest of the system?**
+- **What connects `10 elementos (Fogo, Água, Elétrico, Natureza, Sombra, Luz, Ácido, Vampirismo, Loucura, Vazio)`, `Reino de Ghurd`, `Thalya, comandante de guerra` to the rest of the system?**
   _64 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Combinações de elementos` be split into smaller, more focused modules?**
-  _Cohesion score 0.09147869674185463 - nodes in this community are weakly interconnected._
-- **Why does `Elemento Ácido` connect `Combinações de elementos` to `Diário: páginas e Gosma`?**
-  _High betweenness centrality (0.036) - this node is a cross-community bridge._
+  _Cohesion score 0.08531073446327683 - nodes in this community are weakly interconnected._
+- **Why does `Poder corrosivo absorvido` connect `Diário: páginas e Gosma` to `Combinações de elementos`?**
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
 
 ### Low-confidence Hints
 _AMBIGUOUS edges — the extractor was unsure. Verify before acting on these._
 
-- **What is the exact relationship between `Thucker (handwritten cover title)` and `Slash/Claw Scratch Emblem`?**
+- **What is the exact relationship between `Capuz/manto escuro de penas ou trapos` and `Goblin da Masmorra`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **What is the exact relationship between `Texto: 'Em algum outro momento eu duvidaria. Duvidaria de mim, das minhas pernas, dos meus olhos. Duvidaria que a morte há de continuar algo após' (leitura incerta)` and `Cadáveres / morte (tema)`?**
+- **What is the exact relationship between `Céu sufocante fora da masmorra` and `Dia 2 (entrada do diário)`?**
   _Edge tagged AMBIGUOUS (relation: references) - confidence is low._
