@@ -9,7 +9,6 @@ Estes documentos ou imagens mudaram depois da última leitura. Peça ao Claude: 
 - `jogo/arte/gerado/folha_spritecook.png`
 - `jogo/arte/gerado/gosma_bota.png`
 - `jogo/arte/gerado/gosma_coracao.png`
-- `jogo/arte/gerado/gosma_coracao_alta.png`
 - `jogo/arte/gerado/gosma_coracao_original.png`
 - `jogo/arte/gerado/gosma_cranio.png`
 - `jogo/arte/gerado/thucker.png`
