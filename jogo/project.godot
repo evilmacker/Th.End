@@ -1,0 +1,34 @@
+; Th.End — projeto Godot 4
+
+config_version=5
+
+[application]
+
+config/name="Th.End"
+config/description="Modo idle: Thucker enfrenta Gosmas na borda da tela."
+run/main_scene="res://cenas/idle.tscn"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+boot_splash/show_image=false
+boot_splash/bg_color=Color(0, 0, 0, 0)
+
+[autoload]
+
+Progresso="*res://scripts/progresso.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=200
+window/size/borderless=true
+window/size/always_on_top=true
+window/size/transparent=true
+window/size/no_focus=true
+window/per_pixel_transparency/allowed=true
+window/subwindows/embed_subwindows=false
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+viewport/transparent_background=true
