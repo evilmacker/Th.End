@@ -1,18 +1,18 @@
 # Graph Report - Th.End  (2026-11-26)
 
 ## Corpus Check
-- 16 files · ~23,137 words
+- 17 files · ~23,375 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 30 file(s) not represented in the graph (top: .import 11, .uid 6, .gd 5)
-- WARNING: 30 of 70 files seen (43%) have no supported extractor and are missing from this graph entirely. It may look complete while representing only part of the codebase.
+- Unclassified: 31 file(s) not represented in the graph (top: .import 11, .uid 6, .gd 5)
+- WARNING: 31 of 72 files seen (43%) have no supported extractor and are missing from this graph entirely. It may look complete while representing only part of the codebase.
 
 ## Summary
-- 306 nodes · 469 edges · 25 communities (22 shown, 3 thin omitted)
+- 307 nodes · 469 edges · 26 communities (22 shown, 4 thin omitted)
 - Extraction: 87% EXTRACTED · 11% INFERRED · 2% AMBIGUOUS · INFERRED: 51 edges (avg confidence: 0.84)
 - Token cost: 1,068,827 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7fcfe250`
+- Built from commit: `061bcd6f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -87,7 +87,7 @@
 - **Combinações de dreno de vida/energia (Vampirismo)** — gdd_js_elements_combo_mare_rubra, gdd_js_elements_combo_sifao, gdd_js_elements_combo_parasita, gdd_js_elements_combo_sangria, gdd_js_elements_combo_fome [INFERRED 0.85]
 - **Segredo de família Th (Zhara, Thucker, Thalya)** — claude_segredo_de_enredo_zhara, docs_conversas_01_site_de_apresentacao_zhara_a_sem_volta, docs_conversas_01_site_de_apresentacao_regra_nome_familia, docs_conversas_01_site_de_apresentacao_thalya, readme_thucker, gdd_index_th_family [INFERRED 0.85]
 
-## Communities (25 total, 3 thin omitted)
+## Communities (26 total, 4 thin omitted)
 
 ### Community 0 - "Combinações de elementos"
 Cohesion: 0.09
@@ -201,8 +201,8 @@ Nodes (4): Como funciona, Como rodar no Avell, Teste automático (sem abrir jane
 
 ## Knowledge Gaps
 - **64 isolated node(s):** `10 elementos (Fogo, Água, Elétrico, Natureza, Sombra, Luz, Ácido, Vampirismo, Loucura, Vazio)`, `Reino de Ghurd`, `Thalya, comandante de guerra`, `Estrutura do andar`, `Habilidade × carta × deck` (+59 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 89 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 90 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
