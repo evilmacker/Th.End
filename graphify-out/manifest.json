@@ -6,10 +6,10 @@
     "semantic_hash": "a440882d3105da08f78f3368d5ac5555"
   },
   "gdd/js/diario.js": {
-    "mtime": 1795648383.5919664,
+    "mtime": 1795653774.843213,
     "seen": 1795653642.7469964,
-    "ast_hash": "4d26fb1a06496e48b495c58a893897cf",
-    "semantic_hash": "4d26fb1a06496e48b495c58a893897cf"
+    "ast_hash": "dc69b70b2bb354499e8a9ef39580a079",
+    "semantic_hash": "dc69b70b2bb354499e8a9ef39580a079"
   },
   "gdd/js/elements.js": {
     "mtime": 1795648383.5925922,
@@ -18,22 +18,22 @@
     "semantic_hash": "70f3381ae8c569231b33d4b5a5496922"
   },
   "gdd/js/intro.js": {
-    "mtime": 1795648383.592613,
+    "mtime": 1795653774.843213,
     "seen": 1795653642.7470016,
-    "ast_hash": "267572a2f0a7b86ed521fd53525de047",
-    "semantic_hash": "267572a2f0a7b86ed521fd53525de047"
+    "ast_hash": "78b8a2c2e7795138c026b4c6c2f72cda",
+    "semantic_hash": "78b8a2c2e7795138c026b4c6c2f72cda"
   },
   "gdd/js/pages.js": {
-    "mtime": 1795648383.5926447,
+    "mtime": 1795653774.843213,
     "seen": 1795653642.7470033,
-    "ast_hash": "a65e8adc36e4effabe85cbfb1ad8fc86",
-    "semantic_hash": "a65e8adc36e4effabe85cbfb1ad8fc86"
+    "ast_hash": "80c5d02350adebdb99d7bf5421ad1bcb",
+    "semantic_hash": "80c5d02350adebdb99d7bf5421ad1bcb"
   },
   "gdd/js/scene.js": {
-    "mtime": 1795648383.592665,
+    "mtime": 1795653774.843213,
     "seen": 1795653642.7470047,
-    "ast_hash": "f2917ad2806bbd9bcd1ab30cdb28935e",
-    "semantic_hash": "f2917ad2806bbd9bcd1ab30cdb28935e"
+    "ast_hash": "51f8ead8699d106dd2a9637306353ef5",
+    "semantic_hash": "51f8ead8699d106dd2a9637306353ef5"
   },
   ".claude/CLAUDE.md": {
     "mtime": 1795653342.0113676,
@@ -66,10 +66,10 @@
     "semantic_hash": "ddbf7fc320f2ca7997795e640cd034ec"
   },
   "gdd/index.html": {
-    "mtime": 1795648389.8486357,
+    "mtime": 1795653774.843213,
     "seen": 1795653642.7470133,
-    "ast_hash": "89f3140bec8a59aaafa47e6b4e97e518",
-    "semantic_hash": "89f3140bec8a59aaafa47e6b4e97e518"
+    "ast_hash": "08996e5ea8da2b1ef4187fa13401f0d4",
+    "semantic_hash": "08996e5ea8da2b1ef4187fa13401f0d4"
   },
   "gdd/assets/book-front.webp": {
     "mtime": 1795648383.5927105,

@@ -1,0 +1,70 @@
+# Atualiza o mapa de conhecimento (graphify-out/) a cada push.
+#
+# O que é automático: mudanças em código (arquivos .js etc.) entram no mapa
+# sem IA e sem custo. Mudanças em documentos e imagens só são marcadas aqui;
+# a releitura delas é feita pelo Claude com `/graphify . --update`.
+name: Atualizar mapa (graphify)
+
+on:
+  push:
+    paths-ignore:
+      - "graphify-out/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: graphify-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Instalar graphify
+        run: pip install --quiet "graphifyy==0.9.120"
+
+      - name: Atualizar o mapa do código
+        run: graphify update .
+
+      - name: Verificar documentos e imagens alterados
+        run: |
+          python - <<'EOF'
+          import json, os
+          from pathlib import Path
+          from graphify.detect import detect_incremental
+          r = detect_incremental(Path('.'))
+          sem = [f for t in ('document', 'paper', 'image', 'video')
+                 for f in r.get('new_files', {}).get(t, [])]
+          marker = Path('graphify-out/PENDENTE.md')
+          if sem:
+              lista = '\n'.join(f'- `{os.path.relpath(f)}`' for f in sorted(sem))
+              marker.write_text(
+                  '# Mapa desatualizado\n\n'
+                  'Estes documentos ou imagens mudaram depois da última leitura. '
+                  'Peça ao Claude: `/graphify . --update`\n\n' + lista + '\n',
+                  encoding='utf-8')
+              print(f'{len(sem)} documento(s)/imagem(ns) aguardando releitura')
+          elif marker.exists():
+              marker.unlink()
+          EOF
+
+      - name: Salvar no repositório
+        run: |
+          if [ -z "$(git status --porcelain graphify-out)" ]; then
+            echo "Mapa já estava atualizado."
+            exit 0
+          fi
+          git config user.name "graphify-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add graphify-out
+          git commit -m "Atualiza o mapa do graphify"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

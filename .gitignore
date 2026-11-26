@@ -6,3 +6,4 @@ desktop.ini
 # graphify: arquivos temporários e cache
 graphify-out/.graphify_*
 graphify-out/cache/
+!graphify-out/.graphify_labels.json
