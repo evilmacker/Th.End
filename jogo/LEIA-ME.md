@@ -5,9 +5,15 @@ onde o Thucker enfrenta Gosmas sozinho enquanto você usa o computador.
 
 ## Como rodar no Avell
 
-1. Instale o [Godot 4.4 ou mais novo](https://godotengine.org/download) (versão padrão, não a .NET). É gratuito e não precisa instalar: é só extrair e abrir.
-2. No Godot, clique em **Importar** e escolha o arquivo `jogo/project.godot` deste repositório.
-3. Aperte **F5** para rodar.
+1. Dê dois cliques em `jogo/ferramentas/instalar_godot.bat`. Ele baixa o Godot 4.4.1
+   (gratuito, cerca de 60 MB) para a sua pasta de usuário, sem pedir administrador,
+   cria um atalho **Godot** na área de trabalho e abre o projeto Th.End no editor.
+2. No editor, aperte **F5** para rodar.
+
+Nas próximas vezes, é só abrir o atalho **Godot** e escolher o projeto Th.End.
+
+Se preferir instalar à mão: baixe o [Godot 4.4 ou mais novo](https://godotengine.org/download)
+(versão padrão, não a .NET), extraia, abra, clique em **Importar** e escolha `jogo/project.godot`.
 
 A faixa aparece em cima da barra de tarefas. Os cliques passam através dela; só o contador
 no canto esquerdo recebe o mouse. **Botão direito no contador → Sair** fecha o jogo
