@@ -5,9 +5,12 @@ Estes documentos ou imagens mudaram depois da última leitura. Peça ao Claude: 
 - `CLAUDE.md`
 - `README.md`
 - `jogo/arte/fontes/LEIA-ME.txt`
+- `jogo/arte/gerado/LEIA-ME.md`
 - `jogo/arte/gerado/folha_spritecook.png`
 - `jogo/arte/gerado/gosma_bota.png`
 - `jogo/arte/gerado/gosma_coracao.png`
+- `jogo/arte/gerado/gosma_coracao_alta.png`
+- `jogo/arte/gerado/gosma_coracao_original.png`
 - `jogo/arte/gerado/gosma_cranio.png`
 - `jogo/arte/gerado/thucker.png`
 - `jogo/arte/gosma/gosma_grande.png`
