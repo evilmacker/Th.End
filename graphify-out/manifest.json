@@ -1,248 +1,248 @@
 {
   ".claude/settings.json": {
-    "mtime": 1795655877.3581557,
-    "seen": 1795655888.4846659,
+    "mtime": 1795656049.3721747,
+    "seen": 1795656061.4136784,
     "ast_hash": "a440882d3105da08f78f3368d5ac5555",
     "semantic_hash": "a440882d3105da08f78f3368d5ac5555"
   },
   "gdd/js/diario.js": {
-    "mtime": 1795655877.3721647,
-    "seen": 1795655888.4846761,
+    "mtime": 1795656049.386855,
+    "seen": 1795656061.4136891,
     "ast_hash": "dc69b70b2bb354499e8a9ef39580a079",
     "semantic_hash": "dc69b70b2bb354499e8a9ef39580a079"
   },
   "gdd/js/elements.js": {
-    "mtime": 1795655877.373482,
-    "seen": 1795655888.4846785,
+    "mtime": 1795656049.3879807,
+    "seen": 1795656061.4136922,
     "ast_hash": "70f3381ae8c569231b33d4b5a5496922",
     "semantic_hash": "70f3381ae8c569231b33d4b5a5496922"
   },
   "gdd/js/intro.js": {
-    "mtime": 1795655877.373482,
-    "seen": 1795655888.4846804,
+    "mtime": 1795656049.3879807,
+    "seen": 1795656061.4136944,
     "ast_hash": "78b8a2c2e7795138c026b4c6c2f72cda",
     "semantic_hash": "78b8a2c2e7795138c026b4c6c2f72cda"
   },
   "gdd/js/pages.js": {
-    "mtime": 1795655877.373482,
-    "seen": 1795655888.4846823,
+    "mtime": 1795656049.3879807,
+    "seen": 1795656061.4136965,
     "ast_hash": "80c5d02350adebdb99d7bf5421ad1bcb",
     "semantic_hash": "80c5d02350adebdb99d7bf5421ad1bcb"
   },
   "gdd/js/scene.js": {
-    "mtime": 1795655877.373482,
-    "seen": 1795655888.484684,
+    "mtime": 1795656049.3879807,
+    "seen": 1795656061.413698,
     "ast_hash": "51f8ead8699d106dd2a9637306353ef5",
     "semantic_hash": "51f8ead8699d106dd2a9637306353ef5"
   },
   ".claude/CLAUDE.md": {
-    "mtime": 1795655877.3571646,
-    "seen": 1795655888.4846923,
+    "mtime": 1795656049.3708549,
+    "seen": 1795656061.4137065,
     "ast_hash": "9b31786b637be3c13978bec4c2330752",
     "semantic_hash": "9b31786b637be3c13978bec4c2330752"
   },
   "CLAUDE.md": {
-    "mtime": 1795655877.3592167,
-    "seen": 1795655888.484694,
+    "mtime": 1795656049.3732219,
+    "seen": 1795656061.4137084,
     "ast_hash": "00da9a5a64b942bb582817eedce4cfbb",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795655877.3592167,
-    "seen": 1795655888.484696,
+    "mtime": 1795656049.3732219,
+    "seen": 1795656061.4137104,
     "ast_hash": "ff49ac50a0f76d43d3584dde6f09456a",
     "semantic_hash": ""
   },
   "docs/conversas/01-site-de-apresentacao.md": {
-    "mtime": 1795655877.359434,
-    "seen": 1795655888.4846976,
+    "mtime": 1795656049.3734777,
+    "seen": 1795656061.4137125,
     "ast_hash": "abbaec157218d197efeec15ba004b2f0",
     "semantic_hash": "abbaec157218d197efeec15ba004b2f0"
   },
   "docs/pendencias.md": {
-    "mtime": 1795655877.359434,
-    "seen": 1795655888.4846995,
+    "mtime": 1795656049.3734777,
+    "seen": 1795656061.4137142,
     "ast_hash": "ddbf7fc320f2ca7997795e640cd034ec",
     "semantic_hash": "ddbf7fc320f2ca7997795e640cd034ec"
   },
   "gdd/index.html": {
-    "mtime": 1795655877.3721647,
-    "seen": 1795655888.4847007,
+    "mtime": 1795656049.386855,
+    "seen": 1795656061.4137156,
     "ast_hash": "08996e5ea8da2b1ef4187fa13401f0d4",
     "semantic_hash": "08996e5ea8da2b1ef4187fa13401f0d4"
   },
   "gdd/assets/book-front.webp": {
-    "mtime": 1795655877.3596325,
-    "seen": 1795655888.484707,
+    "mtime": 1795656049.373682,
+    "seen": 1795656061.4137225,
     "ast_hash": "528b9c2655c1346a2c85fd8f299bfda1",
     "semantic_hash": "528b9c2655c1346a2c85fd8f299bfda1"
   },
   "gdd/assets/diario/pagina-2.jpg": {
-    "mtime": 1795655877.359935,
-    "seen": 1795655888.4847088,
+    "mtime": 1795656049.3739731,
+    "seen": 1795656061.4137242,
     "ast_hash": "6a87bee328728073128bd26b5fae695e",
     "semantic_hash": "6a87bee328728073128bd26b5fae695e"
   },
   "gdd/assets/diario/pagina-3.jpg": {
-    "mtime": 1795655877.3601582,
-    "seen": 1795655888.4847107,
+    "mtime": 1795656049.3741977,
+    "seen": 1795656061.4137256,
     "ast_hash": "7a25a737e7287238225c6faf21d229cc",
     "semantic_hash": "7a25a737e7287238225c6faf21d229cc"
   },
   "gdd/assets/diario/pagina-4.jpg": {
-    "mtime": 1795655877.3601582,
-    "seen": 1795655888.4847124,
+    "mtime": 1795656049.3741977,
+    "seen": 1795656061.4137273,
     "ast_hash": "0b85413902f0820f8c51dac7c07f2b48",
     "semantic_hash": "0b85413902f0820f8c51dac7c07f2b48"
   },
   "gdd/assets/diario/pagina-5.jpg": {
-    "mtime": 1795655877.3601646,
-    "seen": 1795655888.484714,
+    "mtime": 1795656049.3741977,
+    "seen": 1795656061.4137287,
     "ast_hash": "9414ed462f2063d8cf368859eb38a38b",
     "semantic_hash": "9414ed462f2063d8cf368859eb38a38b"
   },
   "gdd/assets/logo.png": {
-    "mtime": 1795655877.3611646,
-    "seen": 1795655888.4847329,
+    "mtime": 1795656049.3748548,
+    "seen": 1795656061.4137304,
     "ast_hash": "c91ac0a5d2520db50aec8e1735b5b96a",
     "semantic_hash": "c91ac0a5d2520db50aec8e1735b5b96a"
   },
   "gdd/assets/sprites/batskull-idle.gif": {
-    "mtime": 1795655877.3621647,
-    "seen": 1795655888.4847364,
+    "mtime": 1795656049.376855,
+    "seen": 1795656061.4137318,
     "ast_hash": "f8eb589d533de75fc096715fe6528963",
     "semantic_hash": "f8eb589d533de75fc096715fe6528963"
   },
   "gdd/assets/sprites/goblin-idle.gif": {
-    "mtime": 1795655877.3641646,
-    "seen": 1795655888.48474,
+    "mtime": 1795656049.378855,
+    "seen": 1795656061.4137337,
     "ast_hash": "a4edb6cf1583a1d58732b2b676a7bb28",
     "semantic_hash": "a4edb6cf1583a1d58732b2b676a7bb28"
   },
   "gdd/assets/sprites/slime-idle.gif": {
-    "mtime": 1795655877.3651645,
-    "seen": 1795655888.4847424,
+    "mtime": 1795656049.379855,
+    "seen": 1795656061.4137352,
     "ast_hash": "d1786ea97db5836cd970f44bfb81d554",
     "semantic_hash": "d1786ea97db5836cd970f44bfb81d554"
   },
   "gdd/assets/sprites/thallya-idle.png": {
-    "mtime": 1795655877.3681645,
-    "seen": 1795655888.4847443,
+    "mtime": 1795656049.382855,
+    "seen": 1795656061.413737,
     "ast_hash": "5cbfc24f0083cb38fe1fbe2538a3b51f",
     "semantic_hash": "5cbfc24f0083cb38fe1fbe2538a3b51f"
   },
   "gdd/assets/sprites/thucker-idle.gif": {
-    "mtime": 1795655877.3691647,
-    "seen": 1795655888.484746,
+    "mtime": 1795656049.3838549,
+    "seen": 1795656061.4137385,
     "ast_hash": "67199fc9e8cf34a50ab1ffa78345691f",
     "semantic_hash": "67199fc9e8cf34a50ab1ffa78345691f"
   },
   "gdd/assets/sprites/zhara-idle.gif": {
-    "mtime": 1795655877.3721647,
-    "seen": 1795655888.4847481,
+    "mtime": 1795656049.386855,
+    "seen": 1795656061.4137404,
     "ast_hash": "4a74a54b5bd428dbda456ed4c3323f45",
     "semantic_hash": "4a74a54b5bd428dbda456ed4c3323f45"
   },
   ".github/workflows/graphify.yml": {
-    "mtime": 1795655877.3592167,
-    "seen": 1795655888.4846723,
+    "mtime": 1795656049.3732219,
+    "seen": 1795656061.4136853,
     "ast_hash": "c979ceb81188f7aee0ac6475b74db1c8",
     "semantic_hash": ""
   },
   "jogo/ferramentas/recortar_gosmas.py": {
-    "mtime": 1795655877.3768022,
-    "seen": 1795655888.4846888,
+    "mtime": 1795656049.391334,
+    "seen": 1795656061.4137018,
     "ast_hash": "1110ffb7c2b33ea3a78b7ec222bf7d69",
     "semantic_hash": ""
   },
   "jogo/arte/fontes/LEIA-ME.txt": {
-    "mtime": 1795655877.375397,
-    "seen": 1795655888.484704,
+    "mtime": 1795656049.3899462,
+    "seen": 1795656061.413719,
     "ast_hash": "45c2e91cc92d5b4526c761c319b14400",
     "semantic_hash": ""
   },
   "jogo/arte/gosma/gosma_grande.png": {
-    "mtime": 1795655877.3758388,
-    "seen": 1795655888.4847598,
+    "mtime": 1795656049.3903613,
+    "seen": 1795656061.4137518,
     "ast_hash": "7aa781cdffbd6775cd3332d48af1353d",
     "semantic_hash": ""
   },
   "jogo/arte/gosma/gosma_verde.png": {
-    "mtime": 1795655877.376338,
-    "seen": 1795655888.4847612,
+    "mtime": 1795656049.3908906,
+    "seen": 1795656061.4137533,
     "ast_hash": "d23ebf76447c2552ab93abc2b7dbfba7",
     "semantic_hash": ""
   },
   "jogo/arte/gosma/gosma_vermelha.png": {
-    "mtime": 1795655877.376338,
-    "seen": 1795655888.484763,
+    "mtime": 1795656049.3908906,
+    "seen": 1795656061.413755,
     "ast_hash": "b4c7a11ecd18438269e84dd4709ea18e",
     "semantic_hash": ""
   },
   "jogo/arte/thucker/parado_00.png": {
-    "mtime": 1795655877.376338,
-    "seen": 1795655888.4847643,
+    "mtime": 1795656049.3908906,
+    "seen": 1795656061.4137568,
     "ast_hash": "b8771ae02fc043c47b2b1102d95b9ef8",
     "semantic_hash": ""
   },
   "jogo/spritecook-assets.json": {
-    "mtime": 1795655877.3773837,
-    "seen": 1795655888.4846904,
+    "mtime": 1795656049.39196,
+    "seen": 1795656061.4137044,
     "ast_hash": "d0e2e309e9f9a36fa25e8ad3d336ee7d",
     "semantic_hash": ""
   },
   "jogo/arte/gerado/folha_spritecook.png": {
-    "mtime": 1795655877.3758388,
-    "seen": 1795655888.4847498,
+    "mtime": 1795656049.3903613,
+    "seen": 1795656061.4137418,
     "ast_hash": "d7526e6f83cb9927fdfad1196cb96e43",
     "semantic_hash": ""
   },
   "jogo/arte/gerado/gosma_bota.png": {
-    "mtime": 1795655877.3758388,
-    "seen": 1795655888.4847517,
+    "mtime": 1795656049.3903613,
+    "seen": 1795656061.413744,
     "ast_hash": "a69c73dc5be77d6c0cb396511f0f9651",
     "semantic_hash": ""
   },
   "jogo/arte/gerado/gosma_coracao.png": {
-    "mtime": 1795655877.3758388,
-    "seen": 1795655888.4847534,
+    "mtime": 1795656049.3903613,
+    "seen": 1795656061.4137454,
     "ast_hash": "21b8ce8d4f14bbdc52e32379c972e325",
     "semantic_hash": ""
   },
   "jogo/arte/gerado/gosma_cranio.png": {
-    "mtime": 1795655877.3758388,
-    "seen": 1795655888.4847567,
+    "mtime": 1795656049.3903613,
+    "seen": 1795656061.4137487,
     "ast_hash": "a91a32bea6eb7cc4aea31fa2afdeb253",
     "semantic_hash": ""
   },
   "jogo/arte/gerado/thucker.png": {
-    "mtime": 1795655877.3758388,
-    "seen": 1795655888.4847584,
+    "mtime": 1795656049.3903613,
+    "seen": 1795656061.4137502,
     "ast_hash": "af8f25c7d936d4b5302b0752f7622219",
     "semantic_hash": ""
   },
   "jogo/arte/gerado/LEIA-ME.md": {
-    "mtime": 1795655877.3754537,
-    "seen": 1795655888.4847054,
+    "mtime": 1795656049.3900034,
+    "seen": 1795656061.4137208,
     "ast_hash": "2d61639d29696e7f80d986361f528e92",
     "semantic_hash": ""
   },
   "jogo/arte/gerado/gosma_coracao_original.png": {
-    "mtime": 1795655877.3758388,
-    "seen": 1795655888.484755,
+    "mtime": 1795656049.3903613,
+    "seen": 1795656061.4137468,
     "ast_hash": "42ce2fe81b25ff3dea08e3037304dde4",
     "semantic_hash": ""
   },
   "jogo/LEIA-ME.md": {
-    "mtime": 1795655877.3753169,
-    "seen": 1795655888.4847023,
+    "mtime": 1795656049.3898642,
+    "seen": 1795656061.4137173,
     "ast_hash": "b0257b34df2e657493e1b5dcc325a53c",
     "semantic_hash": ""
   },
   "jogo/ferramentas/instalar_godot.ps1": {
-    "mtime": 1795655877.3768022,
-    "seen": 1795655888.4846864,
-    "ast_hash": "dfd00fa4f2726c63395500b5fe664adf",
+    "mtime": 1795656049.391334,
+    "seen": 1795656061.4136999,
+    "ast_hash": "ac401e7fe9d0188b80d953b08b5c296f",
     "semantic_hash": ""
   }
 }
