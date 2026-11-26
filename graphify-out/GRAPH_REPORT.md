@@ -1,23 +1,23 @@
 # Graph Report - Th.End  (2026-11-26)
 
 ## Corpus Check
-- 13 files · ~22,657 words
+- 15 files · ~22,880 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 9 file(s) not represented in the graph (top: (none) 3, .css 1, .ttf 1)
 
 ## Summary
-- 299 nodes · 464 edges · 22 communities (20 shown, 2 thin omitted)
+- 301 nodes · 465 edges · 24 communities (21 shown, 3 thin omitted)
 - Extraction: 87% EXTRACTED · 11% INFERRED · 2% AMBIGUOUS · INFERRED: 51 edges (avg confidence: 0.84)
 - Token cost: 1,068,827 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6ad72406`
+- Built from commit: `c51d5cfc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Combinações de elementos
-- Regras e visão geral do jogo
+- Regras de trabalho do Claude (Th.End)
 - Site, lore e segredo da família
 - Abertura animada (intro.js)
 - Diário: páginas e Gosma
@@ -38,6 +38,8 @@
 - Folhas rasgadas (pages.js)
 - Runas (elements.js)
 - Regras do graphify
+- diario.js
+- LEIA-ME.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `COMBINACOES` - 46 edges
@@ -52,16 +54,16 @@
 10. `Elemento Loucura` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Resumo da sessão: site de apresentação` --conceptually_related_to--> `Regras de trabalho do Claude (Th.End)`  [INFERRED]
-  docs/conversas/01-site-de-apresentacao.md → CLAUDE.md
 - `Folha 'O Diário do Thucker' (#diario-indice)` --shares_data_with--> `gdd/js/diario.js (lista DIARIO)`  [INFERRED]
   gdd/index.html → README.md
 - `Página publicada (artifact)` --references--> `GDD visual (gdd/index.html)`  [INFERRED]
   docs/conversas/01-site-de-apresentacao.md → gdd/index.html
 - `Leitor de páginas (#leitor)` --shares_data_with--> `gdd/js/diario.js (lista DIARIO)`  [INFERRED]
   gdd/index.html → README.md
-- `Folha 'Cem andares'` --conceptually_related_to--> `100 andares, 100 criaturas, 400 habilidades`  [INFERRED]
-  gdd/index.html → docs/conversas/01-site-de-apresentacao.md
+- `Resumo da sessão: site de apresentação` --conceptually_related_to--> `Regras de trabalho do Claude (Th.End)`  [INFERRED]
+  docs/conversas/01-site-de-apresentacao.md → CLAUDE.md
+- `Reino de Ghurd` --conceptually_related_to--> `Masmorra de Ghurd (cem andares)`  [INFERRED]
+  docs/conversas/01-site-de-apresentacao.md → README.md
 
 ## Import Cycles
 - None detected.
@@ -83,27 +85,27 @@
 - **Combinações de dreno de vida/energia (Vampirismo)** — gdd_js_elements_combo_mare_rubra, gdd_js_elements_combo_sifao, gdd_js_elements_combo_parasita, gdd_js_elements_combo_sangria, gdd_js_elements_combo_fome [INFERRED 0.85]
 - **Segredo de família Th (Zhara, Thucker, Thalya)** — claude_segredo_de_enredo_zhara, docs_conversas_01_site_de_apresentacao_zhara_a_sem_volta, docs_conversas_01_site_de_apresentacao_regra_nome_familia, docs_conversas_01_site_de_apresentacao_thalya, readme_thucker, gdd_index_th_family [INFERRED 0.85]
 
-## Communities (22 total, 2 thin omitted)
+## Communities (24 total, 3 thin omitted)
 
 ### Community 0 - "Combinações de elementos"
 Cohesion: 0.09
 Nodes (59): COMBINACOES, Combinação Abismo (Água + Sombra), Combinação Alucinação (Natureza + Loucura), Combinação Alvejar (Luz + Ácido), Combinação Amnésia (Ácido + Loucura), Combinação Aniquilação (Sombra + Luz), Combinação Apagão (Elétrico + Sombra), Combinação Brasa Negra (Fogo + Sombra) (+51 more)
 
-### Community 1 - "Regras e visão geral do jogo"
-Cohesion: 0.25
-Nodes (8): Reino de Ghurd, Thalya, comandante de guerra, Bag builder (grade espacial?), Gêneros: roguelike, card battle, monster skill catcher, bag builder, Masmorra de Ghurd (cem andares), Plataformas: Steam primeiro, Android depois, Th.End (jogo), Thucker
+### Community 1 - "Regras de trabalho do Claude (Th.End)"
+Cohesion: 0.08
+Nodes (28): Regras de trabalho do Claude (Th.End), 45 combinações de elementos (proposta), Cristal (núcleo de uma Gosma), 10 elementos (Fogo, Água, Elétrico, Natureza, Sombra, Luz, Ácido, Vampirismo, Loucura, Vazio), O Diário do Thucker (páginas 1 a 5), 100 andares, 100 criaturas, 400 habilidades, Reino de Ghurd, GitHub Pages (endereço público gratuito) (+20 more)
 
 ### Community 2 - "Site, lore e segredo da família"
-Cohesion: 0.05
-Nodes (45): Regras de trabalho do Claude (Th.End), 45 combinações de elementos (proposta), Abertura animada (livro vermelho vira logo), Bestiário (7 de 100), Cenário (parede, tochas, FLAME_SPEED=0.3), Cristal (núcleo de uma Gosma), 10 elementos (Fogo, Água, Elétrico, Natureza, Sombra, Luz, Ácido, Vampirismo, Loucura, Vazio), O Diário do Thucker (páginas 1 a 5) (+37 more)
+Cohesion: 0.10
+Nodes (25): Abertura animada (livro vermelho vira logo), Bestiário (7 de 100), Cenário (parede, tochas, FLAME_SPEED=0.3), Fontes Jacquard 24 e Pixelify Sans, Página publicada (artifact), Regra do nome de família (letra do pai + 2ª letra da mãe), Zhara, a Sem Volta, Bestiário (7 criaturas) (+17 more)
 
 ### Community 3 - "Abertura animada (intro.js)"
 Cohesion: 0.24
 Nodes (16): corruption(), ditherRect(), drawBook(), drawEye(), drawFliers(), flierPos(), frame(), inkLine() (+8 more)
 
 ### Community 4 - "Diário: páginas e Gosma"
-Cohesion: 0.17
-Nodes (19): "Convencê-las" (entidades não nomeadas), Cristal (núcleo da Gosma), DIARIO, Ghurd (cidade/dormitório decrépito), Goblins, Gosma, Devorador de Cadáveres, Masmorra, open() (+11 more)
+Cohesion: 0.25
+Nodes (15): "Convencê-las" (entidades não nomeadas), Cristal (núcleo da Gosma), DIARIO, Ghurd (cidade/dormitório decrépito), Goblins, Gosma, Devorador de Cadáveres, Masmorra, Página 1: carta de abertura e entrada na masmorra (+7 more)
 
 ### Community 5 - "Diário pág. 2: Gosma"
 Cohesion: 0.27
@@ -165,6 +167,10 @@ Nodes (3): edge(), paint(), rng()
 Cohesion: 0.10
 Nodes (19): runs-on, steps, concurrency, cancel-in-progress, group, jobs, atualizar, name (+11 more)
 
+### Community 22 - "diario.js"
+Cohesion: 0.60
+Nodes (4): open(), pixelArt(), retear(), show()
+
 ## Ambiguous Edges - Review These
 - `Capuz/manto escuro de penas ou trapos` → `Goblin da Masmorra`  [AMBIGUOUS]
   gdd/assets/sprites/goblin-idle.gif · relation: conceptually_related_to
@@ -188,9 +194,9 @@ Nodes (19): runs-on, steps, concurrency, cancel-in-progress, group, jobs, atuali
   gdd/assets/diario/pagina-5.jpg · relation: references
 
 ## Knowledge Gaps
-- **64 isolated node(s):** `10 elementos (Fogo, Água, Elétrico, Natureza, Sombra, Luz, Ácido, Vampirismo, Loucura, Vazio)`, `Reino de Ghurd`, `Thalya, comandante de guerra`, `Estrutura do andar`, `Habilidade × carta × deck` (+59 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 83 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **64 isolated node(s):** `Reino de Ghurd`, `Thalya, comandante de guerra`, `Plataformas: Steam primeiro, Android depois`, `Capuz/manto escuro de penas ou trapos`, `Duas cimitarras curvas` (+59 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 85 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -199,7 +205,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.030) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `Elemento Ácido` (e.g. with `Cristal (núcleo da Gosma)` and `Poder corrosivo absorvido`) actually correct?**
   _`Elemento Ácido` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `10 elementos (Fogo, Água, Elétrico, Natureza, Sombra, Luz, Ácido, Vampirismo, Loucura, Vazio)`, `Reino de Ghurd`, `Thalya, comandante de guerra` to the rest of the system?**
+- **What connects `Reino de Ghurd`, `Thalya, comandante de guerra`, `Plataformas: Steam primeiro, Android depois` to the rest of the system?**
   _64 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Combinações de elementos` be split into smaller, more focused modules?**
   _Cohesion score 0.08531073446327683 - nodes in this community are weakly interconnected._
